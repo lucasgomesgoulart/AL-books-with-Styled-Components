@@ -1,5 +1,7 @@
 import Cabecalho from '../src/componentes/Cabecalho'
 import styled from 'styled-components'
+import Pesquisa from './componentes/Pesquisa/Index';
+import UltimosLancamentos from './componentes/UltimosLancamentos';
 
   const AppContainer = styled.div`
     width: 100%;
@@ -12,6 +14,8 @@ function App() {
   return (
       <AppContainer>
         <Cabecalho/>
+        <Pesquisa/>
+        <UltimosLancamentos/>
       </AppContainer>
 
   )
